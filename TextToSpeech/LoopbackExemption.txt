@@ -1,0 +1,2 @@
+﻿#use this in powershell
+#CheckNetIsolation.exe LoopbackExempt -is -n=8fadd9a1-338a-44b2-90ab-89c7f09adc64_kpgzkb5h4ap6p

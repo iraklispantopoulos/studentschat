@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "emerald-trilogy-448410-n5",
+  "private_key_id": "04c3810e1caf15a7100db8e27a191c2b3df18e5f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC94HclN9kknAIN\nPxufmPYch9aFzRjm8siuT0eH6J7xvrYd5oufmCy1IOKRahx9Zt8t5rYMTdN5Az6b\njT+BvQjBPqH3B82REM2gHheUr1bHzhotKLtHijiYVH4IJWXvqiOSc8JxpGbGwc0C\nw6QCshzILU5mP8Lu304Ze3ng/KbX/A7q/OYrfRpkIFzoigBBc7s04dUuWXxXUrjm\njdiFGxUZR3pVjGw4rgr8aIsJwoz6Uek0MuSMBM1O4XOJot8Zo8iUWWIeaWnagdPu\nu2RRDzy0z0N9bWj1JpJ8lTBqxuoirLtBKb7vi7HRJSqQkE8UrXoywy4OKqS+UwcF\n4czaZpYXAgMBAAECggEABGcqHCDU1jZ9n/mVOq+hoxhNk8HcWa6l3KvDrSf8oLXk\nSF3KPVqaTIM8IlTRA70iFyxljyrpH52KN40yql/MF1Fefmcd6zSs1JFnNpTdugKt\nxwAEzFC/XF2AEhoAethC4TGo2zSf4zW5jUxJPjNU24d4SIK02+t22QWRaIXqK/Y9\nvfHTeMITSNPhtlqcjH0FYM5U5qbh94blWY6ki9DLF9r/52YkWExPBYKHWAzHpISD\nLyzJ/dhKyotBFtF+N/MIQ6iWuGH9UOdk0Zzna+30MkVqBnUPjldgBHYHQoCvL0P/\nvadt5MJ8tuUNK1Wjix77ayaieGJWH/uVQYeZBKp9wQKBgQD9il/ss5CPRgrGmH79\n1ytS1BFQMnl/JN7Ifd+4kwcqUEE53CBiCKLmkMA1ZJJmaZ/5wmuXqQ+PNUa00hM7\nHHJ3gxsdoZMiaiQV8LKFs+vz9tlmr+lV1jmd/L24fG1urqYTIlibLXqmfyfbIwVb\n8uPOu3jYHhmIeEWPJYzU3zuu0QKBgQC/t/4aAHJungIZnjLaVKYjV3pq1A9vxa36\n0yS/CDt4g12ZWaYgfmJe+fSewKYq3u1gjY270G2zDtDbJjVqeN3rr9SC/QfCNfZD\nPL7pvFWnhNks9baoCZeDX/jq0pacbiW5Hs/26vXkP0IsLiooecakm/S6sYHXAoc4\nKHp3JH9AZwKBgC5ZtrGiHiJjLqMhy82CIZRx2nxrzdRVnDjQ8i5fCqdMpq/6Mx1Y\n8NbvzYO1UCJS2wEg7uR57rNCjRuPcB6VU8PPfwyKtkhLWS99olVZECC4lwPz0tdz\nY3MjeleYv7TFTu0ekU5FITAA/PtNyrQFkmn/0dbIoehV/Hlv5vAfo1yRAoGAd8yJ\nQ8Yzu1uRBGEOdc+fYUYwgMCyRK3J4Yo+1ABY6R1tR331iShwX9jhOrI3I2LaAhNy\nFYJQiisf51Eg379XLQdaS9/BEWKW170Frxi4jU0+SBHiaW5U9wrpiBK/elB50gum\n+CwqKs48k07lmRU/Q20Qp/hzod86j6T7oad0vNECgYB6MLBdRb5/gAvCd5nTOThF\nk2sf6oRUs0kMG85JYr5sWvyYyHwmjDIgKZu/dA7ES5nIBEU4N9StYzpGA/2/iO8s\ntUYd+9A6WwciVJGsoMwPAr9cppi/v/w/lH1co/m/legn1Dc4bGvoR0Yd22X7Mlj9\nb198je9icGboJB4J1boOmQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "default-account@emerald-trilogy-448410-n5.iam.gserviceaccount.com",
+  "client_id": "104332016703669333921",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/default-account%40emerald-trilogy-448410-n5.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

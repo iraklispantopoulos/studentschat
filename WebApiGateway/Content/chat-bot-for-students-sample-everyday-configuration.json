@@ -1,0 +1,464 @@
+{
+	"global_memory_size": 200,
+	"units": [
+		{
+			"id": "1",
+			"next_unit": "2",
+			"name": "αρχική γνωριμία-εγγραφή",
+			"type": "start",
+			"prompts": [
+				{
+					"Id": "1",
+					"type": "question",
+					"goal": "Πώς είναι το όνομά σου;",
+					"message": {
+						"text": "πώς ειναι το ονομα σου;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Πώς είναι το όνομά σου;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"possible_answers": [],
+					"next_prompt": "2",
+					"conversation": {}
+				},
+				{
+					"Id": "2",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Σε ποιά τάξη είσαι;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Σε ποιά τάξη είσαι;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "3",
+					"conversation": {}
+				},
+				{
+					"Id": "3",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Ποια είναι τα δυνατά σου σημεία πιστεύεις; για παράδειγμα τα μαθηματικά η το σχέδιο η μουσική;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"> <voice name=\"Microsoft Stefanos\"> <prosody rate=\"medium\" pitch=\"high\"> Ποια είναι τα δυνατά σου σημεία,<break time=\"300ms\"/> πιστεύεις; <prosody pitch=\"+10%\"> Για παράδειγμα,<break time=\"300ms\"/> τα μαθηματικά,<break time=\"300ms\"/> το σχέδιο,<break time=\"300ms\"/> ή η μουσική;</prosody> <break time=\"400ms\"/> </prosody> </voice> </speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "4",
+					"conversation": {}
+				},
+				{
+					"Id": "4",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Υπάρχουν τομείς που χρειάζεσαι περισσότερη υποστήριξη;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"> <voice name=\"Microsoft Stefanos\"> <prosody rate=\"medium\" pitch=\"high\"> Υπάρχουν τομείς,<break time=\"300ms\"/> που χρειάζεσαι περισσότερη υποστήριξη;<prosody pitch=\"+10%\"></prosody> <break time=\"400ms\"/> </prosody> </voice> </speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "5",
+					"conversation": {}
+				},
+				{
+					"Id": "5",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Πώς αλληλεπιδράς συνήθως με τους άλλους;Ενεργά, παθητικά, η με δυσκολία;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"> <voice name=\"Microsoft Stefanos\"> <prosody rate=\"medium\" pitch=\"high\"> Πώς αλληλεπιδράς συνήθως με τους άλλους;<prosody pitch=\"+10%\"></prosody> <break time=\"400ms\"/> Ενεργά,<break time=\"300ms\"/> παθητικά,<break time=\"300ms\"/> ή με δυσκολία;<prosody pitch=\"+10%\"></prosody> <break time=\"400ms\"/> </prosody> </voice> </speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "6",
+					"conversation": {}
+				},
+				{
+					"Id": "6",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Τι σε ηρεμεί ή ευχαριστεί; Η μουσική τα ζώα, τα χρώματα;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"> <voice name=\"Microsoft Stefanos\"> <prosody rate=\"medium\" pitch=\"high\"> Τι σε ηρεμεί,<break time=\"300ms\"/> ή ευχαριστεί;<prosody pitch=\"+10%\"></prosody> <break time=\"400ms\"/> Η μουσική,<break time=\"300ms\"/> τα ζώα,<break time=\"300ms\"/> ή τα χρώματα;<prosody pitch=\"+10%\"></prosody> <break time=\"400ms\"/> </prosody> </voice> </speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "7",
+					"conversation": {}
+				},
+				{
+					"Id": "7",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Τι σου προκαλεί άγχος ή δυσφορία;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"> <voice name=\"Microsoft Stefanos\"> <prosody rate=\"medium\" pitch=\"high\"> Τι σου προκαλεί άγχος,<break time=\"300ms\"/> ή δυσφορία;<prosody pitch=\"+10%\"></prosody> <break time=\"400ms\"/> </prosody> </voice> </speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "8",
+					"conversation": {}
+				},
+				{
+					"Id": "8",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Ποια είναι τα αγαπημένα σου θέματα ή δραστηριότητες;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"> <voice name=\"Microsoft Stefanos\"> <prosody rate=\"medium\" pitch=\"high\"> Ποια είναι τα αγαπημένα σου θέματα;<break time=\"300ms\"/> Ή δραστηριότητες;<prosody pitch=\"+15%\" rate=\"slow\"> Μπορείς να μου πεις;</prosody> <break time=\"400ms\"/> </prosody> </voice> </speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "9",
+					"conversation": {}
+				},
+				{
+					"Id": "9",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Υπάρχουν συγκεκριμένοι χαρακτήρες, παιχνίδια ή ιστορίες που προτιμάς;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"> <voice name=\"Microsoft Stefanos\"> <prosody rate=\"medium\" pitch=\"high\"> Υπάρχουν συγκεκριμένοι χαρακτήρες;<break time=\"300ms\"/> Παιχνίδια;<prosody pitch=\"+15%\" rate=\"slow\"> Ή ιστορίες που προτιμάς;</prosody> <break time=\"400ms\"/> </prosody> </voice> </speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "",
+					"conversation": {}
+				}
+			]
+		},
+		{
+			"Id": "2",
+			"next_unit": "3",
+			"name": "καθημερινά σενάρια",
+			"type": "generic",
+			"prompts": [
+				{
+					"Id": "1",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Τι έκανες σήμερα;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\"><break time=\"400ms\"/> Τι έκανες σήμερα;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [
+						{
+							"user_prompt": "Τίποτα.",
+							"prompt_id": "1.1"
+						},
+						{
+							"user_prompt": "Πήγα σχολείο.",
+							"prompt_id": "1.2"
+						},
+						{
+							"user_prompt": "Έπαιξα με το tablet μου.",
+							"prompt_id": "1.3"
+						}
+					],
+					"next_prompt": "2",
+					"conversation": {}
+				},
+				{
+					"Id": "1.1",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Καταλαβαίνω, μερικές φορές δεν έχουμε όρεξη για πολλά.",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Καταλαβαίνω, μερικές φορές δεν έχουμε όρεξη για πολλά.<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "2",
+					"conversation": {}
+				},
+				{
+					"Id": "1.2",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Τέλεια! Πώς ήταν το σχολείο σήμερα; Έμαθες κάτι καινούριο;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Τέλεια!<break time=\"400ms\"/> Πώς ήταν το σχολείο σήμερα;<break time=\"400ms\"/> Έμαθες κάτι καινούριο;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [
+						{
+							"user_prompt": "Ναί",
+							"prompt_id": "1.2.1"
+						},
+						{
+							"user_prompt": "Όχι",
+							"prompt_id": "2"
+						}
+					],
+					"next_prompt": "2",
+					"conversation": {}
+				},
+				{
+					"Id": "1.2.1",
+					"type": "conversation",
+					"goal": "",
+					"message": {
+						"text": "Πές μου λοιπόν. Τι έμαθες;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Πές μου λοιπόν.<break time=\"400ms\"/> Τι έμαθες;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "2",
+					"conversation": {
+						"topic": "",
+						"description": "",
+						"max_duration": 60,
+						"ending_que": "Ωραία.",
+						"summarization": {
+							"frequency": 5,
+							"size": 50
+						}
+					}
+				},
+				{
+					"Id": "1.3",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Τι σου αρέσει σε αυτό;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Τι σου αρέσει σε αυτό;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [
+						{
+							"user_prompt": "Ναί",
+							"prompt_id": "2"
+						},
+						{
+							"user_prompt": "Όχι",
+							"prompt_id": "2"
+						}
+					],
+					"next_prompt": "2",
+					"conversation": {}
+				},				
+				{
+					"Id": "2",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Πώς ήταν το σχολείο σήμερα; Έκανες κάτι που σου άρεσε;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Πώς ήταν το σχολείο σήμερα;<break time=\"400ms\"/> Έκανες κάτι που σου άρεσε;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [
+						{
+							"user_prompt": "Ναι, μου άρεσε το μάθημα",
+							"prompt_id": "2.1"
+						},
+						{
+							"user_prompt": "Όχι, δεν μου άρεσε το σχολείο σήμερα.",
+							"prompt_id": "2.2"
+						},
+						{
+							"user_prompt": "Δεν θυμάμαι.",
+							"prompt_id": "2.3"
+						}
+					],
+					"next_prompt": "3",
+					"conversation": {}
+				},
+				{
+					"Id": "2.1",
+					"type": "conversation",
+					"goal": "",
+					"message": {
+						"text": "Χαίρομαι που σου  άρεσε! Τι ήταν το καλύτερο μέρος του μαθήματος;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Χαίρομαι που σου άρεσε!<break time=\"400ms\"/> Τι ήταν το καλύτερο μέρος του μαθήματος;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "3",
+					"conversation": {
+						"topic": "",
+						"description": "",
+						"max_duration": 60,
+						"ending_que": "Ωραία.",
+						"summarization": {
+							"frequency": 5,
+							"size": 50
+						}
+					}
+				},
+				{
+					"Id": "2.2",
+					"type": "conversation",
+					"goal": "",
+					"message": {
+						"text": "Λυπάμαι που δεν  σου άρεσε το σχολείο. Υπήρξε κάτι συγκεκριμένο που σε ενόχλησε; Ίσως μπορούμε να το συζητήσουμε και να βρούμε λύσεις.",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Λυπάμαι που δεν σου άρεσε το σχολείο.<break time=\"400ms\"/> Υπήρξε κάτι συγκεκριμένο που σε ενόχλησε;<break time=\"500ms\"/> Ίσως μπορούμε να το συζητήσουμε και να βρούμε λύσεις.<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "3",
+					"conversation": {
+						"topic": "εξερεύνηση των αιτιών που δεν άρεσε στο παιδί το σχολείο",
+						"description": "",
+						"max_duration": 60,
+						"ending_que": "Ωραία.",
+						"summarization": {
+							"frequency": 5,
+							"size": 50
+						}
+					}
+				},
+				{
+					"Id": "2.3",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Είναι εντάξει αν δεν θυμάσαι. Μπορούμε να μιλήσουμε για κάτι που σου αρέσει γενικά στο σχολείο ή για κάτι άλλο που θέλεις.",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Είναι εντάξει αν δεν θυμάσαι.<break time=\"400ms\"/> Μπορούμε να μιλήσουμε για κάτι που σου αρέσει γενικά στο σχολείο ή για κάτι άλλο που θέλεις.<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [
+						{
+							"user_prompt": "Ναί",
+							"prompt_id": "2.3.1"
+						},
+						{
+							"user_prompt": "Όχι",
+							"prompt_id": "3"
+						}
+					],
+					"next_prompt": "3",
+					"conversation": {}
+				},
+				{
+					"Id": "2.3.1",
+					"type": "conversation",
+					"goal": "",
+					"message": {
+						"text": "Πές μου λοιπόν, τι θές να πούμε;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Πές μου λοιπόν,<break time=\"300ms\"/> τι θες να πούμε;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "3",
+					"conversation": {
+						"topic": "γενική συζύτηση γύρω απο διάφορα θέματα",
+						"description": "",
+						"max_duration": 60,
+						"ending_que": "Ωραία.",
+						"summarization": {
+							"frequency": 5,
+							"size": 50
+						}
+					}
+				},
+				{
+					"Id": "3",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Τώρα που έμαθα τα νέα σου θέλεις να ξεκινήσουμε τη μελέτη για την αυριανή ημέρα;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Τώρα που έμαθα τα νέα σου,<break time=\"300ms\"/> θέλεις να ξεκινήσουμε τη μελέτη για την αυριανή ημέρα;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [
+						{
+							"user_prompt": "Ναι",
+							"prompt_id": "3.1"
+						},
+						{
+							"user_prompt": "Όχι",
+							"prompt_id": "4"
+						}
+					],
+					"next_prompt": "4",
+					"conversation": {}
+				},
+				{
+					"Id": "3.1",
+					"type": "conversation",
+					"goal": "",
+					"message": {
+						"text": "Ωραία. Πές μου πώς θές να ξεκινήσουμε.",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Ωραία.<break time=\"300ms\"/> Πές μου πώς θες να ξεκινήσουμε.<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "4",
+					"conversation": {
+						"topic": "βοήθεια στα σχολικά μαθήματα",
+						"description": "",
+						"max_duration": 600,
+						"ending_que": "Ωραία.",
+						"summarization": {
+							"frequency": 5,
+							"size": 50
+						}
+					}
+				},
+				{
+					"Id": "4",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Θα ήθελες να κουβεντιάσουμε για κάτι άλλο;",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Θα ήθελες να κουβεντιάσουμε για κάτι άλλο;<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [
+						{
+							"user_prompt": "Ναι",
+							"prompt_id": "4.1"
+						},
+						{
+							"user_prompt": "Όχι",
+							"prompt_id": ""
+						}
+					],
+					"next_prompt": "",
+					"conversation": {}
+				},
+				{
+					"Id": "4.1",
+					"type": "conversation",
+					"goal": "",
+					"message": {
+						"text": "Πές μου λοιπόν.",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Πές μου λοιπόν.<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "",
+					"conversation": {
+						"topic": "γενική συζύτηση γύρω απο διάφορα θέματα",
+						"description": "",
+						"max_duration": 900,
+						"ending_que": "Ωραία.",
+						"summarization": {
+							"frequency": 5,
+							"size": 50
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "3",
+			"name": "τέλος συνεδρίας",
+			"type": "end",
+			"prompts": [
+				{
+					"Id": "1",
+					"type": "question",
+					"goal": "",
+					"message": {
+						"text": "Απ ότι φαίνεται τελειώσαμε για σήμερα. Να έχεις μια όμορφη μέρα!",
+						"ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"el-GR\"><voice name=\"Microsoft Stefanos\"><prosody rate=\"medium\" pitch=\"high\">Απ' ό,τι φαίνεται, τελειώσαμε για σήμερα.<break time=\"400ms\"/> Να έχεις μια όμορφη μέρα!<break time=\"400ms\"/></prosody></voice></speak>"
+					},
+					"requested_information": [],
+					"possible_answers": [],
+					"next_prompt": "",
+					"conversation": {}
+				}
+			]
+		}
+	]
+}
